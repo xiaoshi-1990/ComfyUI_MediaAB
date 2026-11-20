@@ -1,0 +1,127 @@
+{
+  "id": "7a2f5f4e-0f6d-4c0e-9a3b-5d1e8c2b9a10",
+  "revision": 0,
+  "last_node_id": 5,
+  "last_link_id": 2,
+  "nodes": [
+    {
+      "id": 3,
+      "type": "VideoEditCompare",
+      "pos": [
+        840,
+        400
+      ],
+      "size": [
+        320,
+        120
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video_a",
+          "type": "VIDEO,VHS_FILENAMES,STRING",
+          "link": null
+        },
+        {
+          "name": "video_b",
+          "type": "VIDEO,VHS_FILENAMES,STRING",
+          "link": null
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "VideoEditCompare"
+      },
+      "widgets_values": [
+        "",
+        ""
+      ],
+      "widgets_values_named": {
+        "video_a": "",
+        "video_b": ""
+      },
+      "title": "Video A/B Compare",
+      "color": "#354658",
+      "bgcolor": "#252a30"
+    },
+    {
+      "id": 4,
+      "type": "MarkdownNote",
+      "pos": [
+        40,
+        20
+      ],
+      "size": [
+        920,
+        330
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "**Drop and compare**  Drag images onto the left node and videos onto the right node. The first file fills A and the second fills B. Once both are filled, drop on the left half to replace A or on the right half to replace B.\n\n**Look closely**  Move the mouse over the picture to slide the divider. Click a video to play or pause it, and use the left and right arrow keys to step one frame at a time.\n\n**Saving**  Files picked from your computer are only shown in the current page, so pick them again after a refresh. Files dragged from the ComfyUI asset panel are saved by reference.\n\n**拖入对比**  把图片拖到左边的节点，把视频拖到右边的节点。第一个文件放进 A，第二个放进 B。两边都有素材后，拖到画面左半边会替换 A，拖到右半边会替换 B。\n\n**查看细节**  鼠标在画面上移动即可滑动分界线。点击视频播放或暂停，用左右方向键逐帧查看。\n\n**关于保存**  从电脑里选择的文件只在当前页面显示，刷新后需要重新选择。从 ComfyUI 资产面板拖入的文件会以引用的方式保存在工作流里。"
+      ],
+      "widgets_values_named": {
+        "text": "**Drop and compare**  Drag images onto the left node and videos onto the right node. The first file fills A and the second fills B. Once both are filled, drop on the left half to replace A or on the right half to replace B.\n\n**Look closely**  Move the mouse over the picture to slide the divider. Click a video to play or pause it, and use the left and right arrow keys to step one frame at a time.\n\n**Saving**  Files picked from your computer are only shown in the current page, so pick them again after a refresh. Files dragged from the ComfyUI asset panel are saved by reference.\n\n**拖入对比**  把图片拖到左边的节点，把视频拖到右边的节点。第一个文件放进 A，第二个放进 B。两边都有素材后，拖到画面左半边会替换 A，拖到右半边会替换 B。\n\n**查看细节**  鼠标在画面上移动即可滑动分界线。点击视频播放或暂停，用左右方向键逐帧查看。\n\n**关于保存**  从电脑里选择的文件只在当前页面显示，刷新后需要重新选择。从 ComfyUI 资产面板拖入的文件会以引用的方式保存在工作流里。"
+      },
+      "color": "#343c45",
+      "bgcolor": "#24292f",
+      "title": "MediaAB Guide"
+    },
+    {
+      "id": 5,
+      "type": "ImageEditCompare",
+      "title": "Image A/B Compare",
+      "pos": [
+        40,
+        400
+      ],
+      "size": [
+        320,
+        120
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "ImageEditCompare"
+      },
+      "widgets_values": [],
+      "color": "#344852",
+      "bgcolor": "#252a30"
+    }
+  ],
+  "links": [],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.78,
+      "offset": [
+        74,
+        40
+      ]
+    }
+  },
+  "version": 0.4
+}
